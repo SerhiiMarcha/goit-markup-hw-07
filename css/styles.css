@@ -602,7 +602,7 @@ text-align: center;
 
 .studio-indent {
   padding-bottom: 72px;
-  width: 396px;
+  width: 100%;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -865,7 +865,6 @@ margin-left: 0;
 
 .footer-container {
   display: block;
-  /* align-items: baseline; */
   
 }
 @media screen and (min-width: 1158px) {
@@ -965,8 +964,9 @@ margin-left: 0;
 }
 
 .subscribe-form-div {
-  display: flex;
-  gap: 24px;
+  display: block;
+  margin-bottom: 16px;
+  /* gap: 24px; */
 }
 
 .subscribe-form-label {
