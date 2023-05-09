@@ -600,6 +600,7 @@ background-color: #404bbf;
   height: 100%;
   background: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms ease, visibility 250ms ease;
+  overflow: scroll;
 }
 
 .backdrop.is-hidden {
