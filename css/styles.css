@@ -1427,7 +1427,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-}
+ } 
 
 .pf-btn {
   padding: 12px 24px;
